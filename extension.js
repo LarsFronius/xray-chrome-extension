@@ -11,9 +11,10 @@ chrome.webRequest.onHeadersReceived.addListener(
 				return section.startsWith("Root=")
 			})
 			var traceId = rootSection.replace("Root=","")
-			chrome.browserAction.setIcon({path: "link.png"})
 			lastTraceURL = "https://console.aws.amazon.com/xray/home?region=us-east-1#/traces/" + traceId
-			console.log(lastTraceURL)
+			chrome.browserAction.setIcon({path: "link.png"})
+			chrome.browserAction.setTitle({title: "Take me to trace " + traceId})
+			console.log("Found trace" + lastTraceURL)
 		}
 	},
 	{
