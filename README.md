@@ -1,7 +1,7 @@
 Home of the unofficial (and minimal) X-Ray chrome extension
 ===
 
-This extension looks up the X-Amzn-Trace-Id and generates a link to take you to the matching trace.
+This extension looks up the X-Amzn-Trace-Id headers and generates a link to take you to the matching trace.
 
 ## Development
 
