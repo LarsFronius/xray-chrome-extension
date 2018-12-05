@@ -1,15 +1,15 @@
 {
-	"manifest_version": 2,
-	"name": "X-Ray linker",
-	"description": "This extension looks up the X-Amzn-Trace-Id header and generates a link to take you to the matching trace.",
-	"version": "1",
-	"browser_action": {
-		"default_icon": "xray.png",
-		"default_title": "Take me to X-Ray"
-	},
-	"background": {
-		"scripts": ["extension.js"]
-	},
-	"permissions": ["webRequest","http://*/*","https://*/*"]
+  "manifest_version": 2,
+  "name": "X-Ray linker",
+  "description": "This extension looks up the X-Amzn-Trace-Id header and generates a link to take you to the matching trace.",
+  "version": "1",
+  "browser_action": {
+    "default_icon": "xray.png",
+    "default_title": "Take me to X-Ray"
+  },
+  "background": {
+    "scripts": ["extension.js"]
+  },
+  "permissions": ["webRequest","http://*/*","https://*/*"]
 }
 
