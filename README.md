@@ -3,6 +3,10 @@ Home of the unofficial (and minimal) X-Ray chrome extension
 
 This extension looks up the X-Amzn-Trace-Id headers and generates a link to take you to the matching trace.
 
+## Installation
+
+Releases are available to install from the [Chrome Web Store](https://chrome.google.com/webstore/detail/x-ray-linker/pedjflehlcikdkegmihlccpbgikdnpof)
+
 ## Development
 
 To install manually for development
